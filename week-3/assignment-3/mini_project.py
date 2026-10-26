@@ -1,3 +1,4 @@
+# Variables
 user_day = input("What day is it? ")
 norm_user_day = user_day.strip().lower()
 user_time_of_day = input("What is the time of day? (e.g., Morning, Afternoon, Evening) ")
