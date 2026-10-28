@@ -1,4 +1,4 @@
-score = 100
+score = 99
 
 if score >= 90:
     print("A")
