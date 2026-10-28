@@ -27,16 +27,16 @@ average = total / len(students)
 print(f"Class average:    {average}")
 
 # List all unique subjects
-unique_subjects = []
+unique_subjects = set()
 for student in students:
 	subject = student["subject"]
 	if subject not in unique_subjects:
-		unique_subjects.append(subject)
+		unique_subjects.add(student["subject"])
 print(f"Subjects offered: {unique_subjects}") 
 
 # List all high scorers 
 high_scorers = []
 for student in students:
-	if student["score"] >= 75:
+	if student["score"] > 75:
 		high_scorers.append(student["name"])
 print(f"High scorers:     {high_scorers}")
