@@ -1,4 +1,4 @@
-# Warmup 3: Linear Search
+# Warmup 3: Linear Search.
 
 names = ["Marcus", "Sarah", "Roman", "Talia", "David", "Rebecca"]
 user_search = input("Enter a name to search for: ")

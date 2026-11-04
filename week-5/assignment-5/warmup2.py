@@ -1,4 +1,4 @@
-# Warmup 2: Input Validation with a While Loop
+# Warmup 2: Input Validation with a While Loop.
 
 while True:
 	user_input = input("Enter a positive integer: ")

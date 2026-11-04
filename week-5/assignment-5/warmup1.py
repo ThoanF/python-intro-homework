@@ -1,4 +1,4 @@
-# Warmup 1: Sum with a For Loop
+# Warmup 1: Sum with a For Loop.
 
 sum = 0
 for num in range(1, 101):
