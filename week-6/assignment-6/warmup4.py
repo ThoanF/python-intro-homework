@@ -3,7 +3,7 @@
 # Then use input() to ask the user for a score and convert it to an integer with int() before you check it. 
 # Call your function inside an if statement and print either "Valid score." or "Invalid score - must be between 0 and 100."
 
-def is_valid(score):
+def is_valid_score(score):
 	if score >= 0 and score <= 100:
 		return True
 	else:
@@ -11,7 +11,7 @@ def is_valid(score):
 
 score = int(input("Enter a score: "))
 
-if is_valid(score):
+if is_valid_score(score):
 	print("Valid score.")
 else:
 	print("Invalid score - must be between 0 and 100")
